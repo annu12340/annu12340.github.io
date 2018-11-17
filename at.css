@@ -1,0 +1,248 @@
+#myVideo1{
+  position: absolute;
+  top:35px;
+  left:13px;
+ filter:opacity(30%);
+  height: 500px;
+  z-index: 4;
+  overflow:hidden;
+   width: 2667px;
+
+}
+#myVideo{
+  position: absolute;
+  top:35px;
+  left:13px;
+ 
+  filter:opacity(30%);
+  height: 500px;
+  
+  
+
+  padding-top: 7px;
+  z-index: 4;
+  overflow:hidden;
+  
+
+}
+
+#v4{
+position: absolute;
+  top:75px;
+  left:13px;
+
+ 
+  height: 740px;
+  
+  padding-top: 7px;
+  z-index: -4;
+  overflow:hidden;}
+
+
+#myVideo video{
+  width: 6200px;
+}
+#myvideo2{
+  position: absolute;
+  filter:opacity(90%);
+  padding-top: -10px;
+  
+  top:0;
+  left:540px;
+  margin-left:0;
+  margin-right:0;
+ 
+  width:760px;
+  margin-top:100px;
+  z-index:-1;
+  
+}
+#myVideo2 video{
+   height: 990px;
+
+}
+#myvideo2 video{
+  height: 500px;
+}
+
+
+#i {
+  height: 500px;
+  width: 1320px;
+  padding-left: 10px;
+  padding-top: 7px;
+  z-index: 1;
+}
+
+#one{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  height: 20px;
+  width: 1308px;
+  font-size: 24px;
+  padding-left: 40px;
+
+}
+#text1{
+  color:white;
+ font-size:30px;
+ position: absolute;
+  left:380px;
+
+text-decoration: none;
+
+}
+ #p{
+    color: white;
+    z-index:2;
+  }
+ #quote{
+  position: absolute;
+  top:600px;
+  left:550px;
+  font-size: 20px;
+  
+  text-decoration: none;
+  
+  color: #0060B6;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 80em;
+  animation: type 7s steps(60, end); 
+  animation-iteration-count: 3;
+  
+ } 
+ #quote:hover{
+  font-size: 27px;
+  font-family:'Allerta Stencil', sans-serif;
+}
+
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes type3{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+}
+
+
+
+@keyframes blinkingText{
+    0%{     color: black;    }
+    49%{    color: grey; }
+    50%{    color: #e9ecef;  }
+    79%{color:#ced4da;}
+    69%{    color:#e9ecef;  }
+    89%{    color:grey;  }
+    100%{   color: black;    }
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  height: 70px;
+  width: 1308px;
+  font-size: 24px;
+  padding-left: 40px;
+}
+li {
+  float: left;
+  padding-top: 7px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 136px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+body {
+  background: #FFFFFF;
+}
+
+
+
+#right{
+  float:right;
+  margin-right: 100px;
+font-size:24px;
+  margin-top:39px;
+  width:700px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  
+}
+#left{
+  float:left;
+  width:500px;
+ height: 100px;
+  margin-top:29px;
+  
+}
+#text{
+  position:absolute;
+  top:200px;
+  left:100px;
+  font-size:80px;
+  
+  color:white;
+ font-family: 'Lobster', cursive;
+ animation: colour 2s ease-in;
+ animation-iteration-count: infinite;
+}
+@keyframes colour{
+  0%{
+    color:white;
+  }
+  10%
+  {
+    color:#e5dbff;
+  }
+  20%
+  {
+    color:#e3fafc
+  }
+  30%{
+    color:#dee2e6;
+  }
+  40%{
+    color:#ffdeeb;
+  }
+  60%{
+    color:#f3d9fa;
+  }
+  70%
+  {
+    color:#c5f6fa;
+  }
+}
+
+#ctext{
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size:70px;
+  position:absolute;
+  top:320px;
+  left:400px;
+animation:blinkingText 5s infinite ease-in-out;
+  
+}
+
